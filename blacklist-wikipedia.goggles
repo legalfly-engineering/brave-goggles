@@ -1,0 +1,7 @@
+! name: Wikipedia Blacklist
+! description: Blacklist all Wikipedia domains (including subdomains and international domains) from search results.
+! public: false
+! author: Seppe Snoeck
+
+! Block all Wikipedia domains using wildcards.
+$discard,site=*.wikipedia.*
