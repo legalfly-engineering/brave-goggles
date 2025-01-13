@@ -1,86 +1,12 @@
-! name: Wikipedia and Wikikids Blacklist
+! name: Wikipedia Blacklist
 ! description: Blacklist all Wikipedia domains, mobile subdomains, and Wikikids from search results.
 ! public: false
 ! author: Legalfly
 
 ! Blacklist all Wikipedia domains
 $discard,site=wikipedia.org
-$discard,site=en.wikipedia.org
-$discard,site=de.wikipedia.org
-$discard,site=fr.wikipedia.org
-$discard,site=es.wikipedia.org
-$discard,site=it.wikipedia.org
-$discard,site=ru.wikipedia.org
-$discard,site=ja.wikipedia.org
-$discard,site=zh.wikipedia.org
-$discard,site=pl.wikipedia.org
-$discard,site=nl.wikipedia.org
-$discard,site=sv.wikipedia.org
-$discard,site=pt.wikipedia.org
-$discard,site=uk.wikipedia.org
-$discard,site=cs.wikipedia.org
-$discard,site=no.wikipedia.org
-$discard,site=fi.wikipedia.org
-$discard,site=ar.wikipedia.org
-$discard,site=tr.wikipedia.org
-$discard,site=ca.wikipedia.org
-$discard,site=da.wikipedia.org
-$discard,site=el.wikipedia.org
-$discard,site=hu.wikipedia.org
-$discard,site=id.wikipedia.org
-$discard,site=ro.wikipedia.org
-$discard,site=sk.wikipedia.org
-$discard,site=sl.wikipedia.org
-$discard,site=sr.wikipedia.org
-$discard,site=vi.wikipedia.org
-$discard,site=zh-cn.wikipedia.org
-$discard,site=zh-tw.wikipedia.org
-$discard,site=zh-yue.wikipedia.org
-$discard,site=zh-min-nan.wikipedia.org
-$discard,site=zh-classical.wikipedia.org
-
-! Blacklist mobile Wikipedia domains
-$discard,site=m.wikipedia.org
-$discard,site=en.m.wikipedia.org
-$discard,site=de.m.wikipedia.org
-$discard,site=fr.m.wikipedia.org
-$discard,site=es.m.wikipedia.org
-$discard,site=it.m.wikipedia.org
-$discard,site=ru.m.wikipedia.org
-$discard,site=ja.m.wikipedia.org
-$discard,site=zh.m.wikipedia.org
-$discard,site=pl.m.wikipedia.org
-$discard,site=nl.m.wikipedia.org
-$discard,site=sv.m.wikipedia.org
-$discard,site=pt.m.wikipedia.org
-$discard,site=uk.m.wikipedia.org
-$discard,site=cs.m.wikipedia.org
-$discard,site=no.m.wikipedia.org
-$discard,site=fi.m.wikipedia.org
-$discard,site=ar.m.wikipedia.org
-$discard,site=tr.m.wikipedia.org
-$discard,site=ca.m.wikipedia.org
-$discard,site=da.m.wikipedia.org
-$discard,site=el.m.wikipedia.org
-$discard,site=hu.m.wikipedia.org
-$discard,site=id.m.wikipedia.org
-$discard,site=ro.m.wikipedia.org
-$discard,site=sk.m.wikipedia.org
-$discard,site=sl.m.wikipedia.org
-$discard,site=sr.m.wikipedia.org
-$discard,site=vi.m.wikipedia.org
-$discard,site=zh-cn.m.wikipedia.org
-$discard,site=zh-tw.m.wikipedia.org
-$discard,site=zh-yue.m.wikipedia.org
-$discard,site=zh-min-nan.m.wikipedia.org
-$discard,site=zh-classical.m.wikipedia.org
 
 ! Blacklist Wikikids domains
 $discard,site=wikikids.nl
 $discard,site=wikikids.com
 $discard,site=wikikids.org
-$discard,site=en.wikikids.nl
-$discard,site=de.wikikids.nl
-$discard,site=fr.wikikids.nl
-$discard,site=es.wikikids.nl
-$discard,site=it.wikikids.nl
