@@ -1,7 +1,47 @@
 ! name: Wikipedia Blacklist
-! description: Blacklist all Wikipedia domains (including subdomains and international domains) from search results.
+! description: Blacklist all Wikipedia domains from search results.
 ! public: false
-! author: Seppe Snoeck
+! author: Custom User
 
-! Block all Wikipedia domains using wildcards.
-$discard,site=*.wikipedia.*
+! This Goggle file is designed to remove all Wikipedia sites, including international domains.
+
+$discard,site=wikipedia.org
+$discard,site=en.wikipedia.org
+$discard,site=de.wikipedia.org
+$discard,site=fr.wikipedia.org
+$discard,site=es.wikipedia.org
+$discard,site=it.wikipedia.org
+$discard,site=ru.wikipedia.org
+$discard,site=ja.wikipedia.org
+$discard,site=zh.wikipedia.org
+$discard,site=pl.wikipedia.org
+$discard,site=nl.wikipedia.org
+$discard,site=sv.wikipedia.org
+$discard,site=pt.wikipedia.org
+$discard,site=uk.wikipedia.org
+$discard,site=cs.wikipedia.org
+$discard,site=no.wikipedia.org
+$discard,site=fi.wikipedia.org
+$discard,site=ar.wikipedia.org
+$discard,site=tr.wikipedia.org
+$discard,site=ca.wikipedia.org
+$discard,site=da.wikipedia.org
+$discard,site=el.wikipedia.org
+$discard,site=hu.wikipedia.org
+$discard,site=id.wikipedia.org
+$discard,site=ro.wikipedia.org
+$discard,site=sk.wikipedia.org
+$discard,site=sl.wikipedia.org
+$discard,site=sr.wikipedia.org
+$discard,site=vi.wikipedia.org
+$discard,site=zh-cn.wikipedia.org
+$discard,site=zh-tw.wikipedia.org
+$discard,site=zh.wikipedia.org
+$discard,site=zh-yue.wikipedia.org
+$discard,site=zh-min-nan.wikipedia.org
+$discard,site=zh-classical.wikipedia.org
+$discard,site=zh-cn.wikipedia.org
+$discard,site=zh-tw.wikipedia.org
+$discard,site=zh-yue.wikipedia.org
+$discard,site=zh-min-nan.wikipedia.org
+$discard,site=zh-classical.wikipedia.org
