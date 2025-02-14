@@ -1,5 +1,5 @@
 ! name: Wikipedia and Wikikids Blacklist
-! description: Blacklist all Wikipedia domains, mobile subdomains, and Wikikids from search results.
+! description: Blacklist all Wikipedia domains, mobile subdomains, Wikikids and quora from search results.
 ! public: false
 ! author: Legalfly
 
@@ -84,3 +84,44 @@ $discard,site=de.wikikids.nl
 $discard,site=fr.wikikids.nl
 $discard,site=es.wikikids.nl
 $discard,site=it.wikikids.nl
+
+! Blacklist all Quora domains
+$discard,site=quora.com
+$discard,site=www.quora.com
+$discard,site=es.quora.com
+$discard,site=fr.quora.com
+$discard,site=de.quora.com
+$discard,site=it.quora.com
+$discard,site=pt.quora.com
+$discard,site=ru.quora.com
+$discard,site=nl.quora.com
+$discard,site=ja.quora.com
+$discard,site=zh.quora.com
+$discard,site=hi.quora.com
+$discard,site=id.quora.com
+$discard,site=ar.quora.com
+$discard,site=tr.quora.com
+$discard,site=quora.es
+$discard,site=quora.fr
+$discard,site=quora.de
+$discard,site=quora.it
+$discard,site=quora.pt
+$discard,site=quora.ru
+$discard,site=quora.nl
+$discard,site=quora.jp
+$discard,site=quora.cn
+$discard,site=quora.hk
+$discard,site=quora.in
+$discard,site=quora.id
+$discard,site=quora.ae
+$discard,site=quora.sa
+$discard,site=quora.br
+$discard,site=quora.mx
+$discard,site=quora.co
+$discard,site=quora.au
+$discard,site=quora.ca
+$discard,site=quora.sg
+$discard,site=quora.my
+$discard,site=quora.ph
+$discard,site=quora.vn
+$discard,site=quora.kr
