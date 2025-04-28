@@ -4,7 +4,7 @@
 ! author: Legalfly
 
 ! Blacklist all domains
-$discard, site=*
+$discard
 
 ! whitelist
 site:legalfly.com
