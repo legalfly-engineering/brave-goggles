@@ -1,0 +1,6 @@
+! name: Dedicated whitelist Goggle for Belgium
+! description: Show only results from legalfly.com
+! public: false
+! author: Legalfly
+
+site:legalfly.com
