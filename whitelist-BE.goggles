@@ -3,5 +3,8 @@
 ! public: false
 ! author: Legalfly
 
--blocksite:*
+! Blacklist all domains
+$discard, *
+
+! whitelist
 site:legalfly.com
