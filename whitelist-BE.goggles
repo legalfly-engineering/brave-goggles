@@ -7,4 +7,6 @@
 $discard
 
 ! whitelist
-site:legalfly.com
+$boost=3, site=*.legalfly.com
+$boost=3, site=legalfly.com
+$boost=3, site=wikipedia.org
