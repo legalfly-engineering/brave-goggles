@@ -1,4 +1,4 @@
-! name: Dedicated whitelist Goggle for United Stated
+! name: Dedicated whitelist Goggle for United States
 ! description: Show only results from US curated sources
 ! public: false
 ! author: Legalfly
@@ -6,38 +6,28 @@
 ! Blacklist all domains
 $discard
 
-! whitelist
-$boost=3,site=uscode.house.gov
-$boost=2,site=house.gov
+! Generic whitelist boosting
+*uscode*$boost=1,site=uscode.house.gov
+*uscode*$boost=2,site=house.gov
+*supremecourt*$boost=1,site=supremecourt.gov
+*justia*$boost=1,site=law.justia.com
 
-! $boost=3,site=law.cornell.edu/uscode/text
-! $boost=3,site=law.cornell.edu/supremecourt/text
-$boost=3,site=law.cornell.edu
+! Specific path-based whitelist boosting
+/uscode/text/$boost=3,site=law.cornell.edu
+/supremecourt/text/$boost=3,site=law.cornell.edu
+/globalex/united_states.html/$boost=3,site=nyulawglobal.org
+/cases/$boost=3,site=law.justia.com
+/recap/$boost=3,site=courtlistener.com
+/app/collection/USCODE/$boost=3,site=govinfo.gov
 
-! $boost=3,site=govinfo.gov/app/collection/USCODE
+! Domain-based whitelist boosting
 $boost=3,site=govinfo.gov
-
 $boost=3,site=congress.gov
-
-$boost=3,site=supremecourt.gov
-
-! $boost=3,site=law.justia.com/cases
-$boost=3,site=law.justia.com
-
 $boost=3,site=caselaw.findlaw.com
 $boost=2,site=findlaw.com
-
 $boost=3,site=case.law
-
-! $boost=3,site=courtlistener.com/recap
-$boost=3,site=courtlistener.com
-
-! $boost=3,site=nyulawglobal.org/globalex/united_states.html
-$boost=3,site=nyulawglobal.org
-
 $boost=3,site=investopedia.com
-
 $boost=3,site=corpgov.law.harvard.edu
 $boost=2,site=law.harvard.edu
-
 $boost=3,site=sec.gov
+
