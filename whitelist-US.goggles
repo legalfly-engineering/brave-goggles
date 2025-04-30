@@ -10,35 +10,34 @@ $discard
 $boost=3,site=uscode.house.gov
 $boost=2,site=house.gov
 
-$boost=3,site=law.cornell.edu/uscode/text
-$boost=3,site=law.cornell.edu/supremecourt/text
-$boost=2,site=law.cornell.edu
+! $boost=3,site=law.cornell.edu/uscode/text
+! $boost=3,site=law.cornell.edu/supremecourt/text
+$boost=3,site=law.cornell.edu
 
-$boost=3,site=govinfo.gov/app/collection/USCODE
-$boost=2,site=govinfo.gov
+! $boost=3,site=govinfo.gov/app/collection/USCODE
+$boost=3,site=govinfo.gov
 
 $boost=3,site=congress.gov
 
 $boost=3,site=supremecourt.gov
 
-$boost=3,site=law.justia.com/cases
-$boost=2,site=law.justia.com
+! $boost=3,site=law.justia.com/cases
+$boost=3,site=law.justia.com
 
 $boost=3,site=caselaw.findlaw.com
 $boost=2,site=findlaw.com
 
 $boost=3,site=case.law
 
-$boost=3,site=courtlistener.com/recap
-$boost=2,site=courtlistener.com
+! $boost=3,site=courtlistener.com/recap
+$boost=3,site=courtlistener.com
 
-$boost=3,site=nyulawglobal.org/globalex/united_states.html
+! $boost=3,site=nyulawglobal.org/globalex/united_states.html
+$boost=3,site=nyulawglobal.org
 
 $boost=3,site=investopedia.com
 
 $boost=3,site=corpgov.law.harvard.edu
 $boost=2,site=law.harvard.edu
-
-$boost=3,site=sec.gov
 
 $boost=3,site=sec.gov
